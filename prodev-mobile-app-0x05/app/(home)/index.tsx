@@ -1,4 +1,4 @@
-import PropertyListing from "@/components/PropertyListing";
+import PropertyListing from "@/components/PropertyListing/PropertyListing";
 import { styles } from "@/styles/_homestyles";
 
 import { Feather } from "@expo/vector-icons";
@@ -11,7 +11,7 @@ import {
   Dimensions,
   TouchableHighlight,
 } from "react-native";
-import { FILTERS, SAMPLE_DATA } from "@/constants";
+import { FILTERS, SAMPLE_DATA } from "@/constants/data";
 
 const Home = () => {
   return (
