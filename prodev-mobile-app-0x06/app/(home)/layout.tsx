@@ -7,6 +7,8 @@ import {
 } from "@expo/vector-icons";
 import { Tabs } from "expo-router";
 import React from "react";
+import "@/styles//global.css"
+
 
 const HomeRootLayout = () => {
   return (
